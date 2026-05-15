@@ -1,0 +1,66 @@
+# AI Evaluation Pipeline
+
+## Purpose
+
+The AI evaluation pipeline reviews learner responses and converts them into coaching, scores, and competency signals.
+
+---
+
+## Core Principle
+
+AI should not only give feedback.
+
+It should help create measurable evidence of learner readiness.
+
+---
+
+## Evaluation Flow
+
+1. Learner attempts simulation
+2. Learner response is captured
+3. AI supervisor evaluates response
+4. Competency scores are generated
+5. Strengths and growth areas are identified
+6. Improved response is suggested
+7. Next mission is recommended
+8. Workforce profile is updated
+
+---
+
+## Evaluation Criteria
+
+The AI evaluator can assess:
+
+- empathy
+- safety awareness
+- observation quality
+- reinforcement use
+- communication clarity
+- next-step planning
+- documentation readiness
+
+---
+
+## Guardrails
+
+The AI evaluator should:
+
+- avoid making clinical diagnoses
+- avoid unsafe instructions
+- encourage supervision
+- stay educational
+- be supportive rather than punitive
+- flag high-risk responses for human review
+
+---
+
+## Output Example
+
+```json
+{
+  "overall_score": 82,
+  "strengths": ["empathy", "reinforcement"],
+  "growth_areas": ["documentation"],
+  "recommended_next_mission": "Documentation for Supervision",
+  "human_review_needed": false
+}
